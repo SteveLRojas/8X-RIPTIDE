@@ -1,0 +1,189 @@
+# Reading C:/altera/10.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do 8XRIPTIDE_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\10.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\10.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/toplevel.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module N8XRIPTIDE
+# 
+# Top level modules:
+# 	N8XRIPTIDE
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module shift_merge
+# 
+# Top level modules:
+# 	shift_merge
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/decode_unit.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module decode_unit
+# 
+# Top level modules:
+# 	decode_unit
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/hazard_unit.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module hazard_unit
+# 
+# Top level modules:
+# 	hazard_unit
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/PC.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/internal_mem.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module reg_file
+# -- Compiling module call_stack
+# 
+# Top level modules:
+# 	reg_file
+# 	call_stack
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/right_rotate.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module right_rotate
+# 
+# Top level modules:
+# 	right_rotate
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/mask_unit.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module mask_unit
+# 
+# Top level modules:
+# 	mask_unit
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ALU.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO_latch.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module IO_latch
+# 
+# Top level modules:
+# 	IO_latch
+# 
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/toplevel.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module N8XRIPTIDE
+# 
+# Top level modules:
+# 	N8XRIPTIDE
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ALU.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/decode_unit.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module decode_unit
+# 
+# Top level modules:
+# 	decode_unit
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/hazard_unit.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module hazard_unit
+# 
+# Top level modules:
+# 	hazard_unit
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/internal_mem.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module reg_file
+# -- Compiling module call_stack
+# 
+# Top level modules:
+# 	reg_file
+# 	call_stack
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module IO_mod
+# -- Compiling module testmem
+# 
+# Top level modules:
+# 	IO_mod
+# 	testmem
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO_latch.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module IO_latch
+# 
+# Top level modules:
+# 	IO_latch
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/mask_unit.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module mask_unit
+# 
+# Top level modules:
+# 	mask_unit
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/PC.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/right_rotate.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module right_rotate
+# 
+# Top level modules:
+# 	right_rotate
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ROM.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module ROM_high
+# -- Compiling module ROM_low
+# 
+# Top level modules:
+# 	ROM_high
+# 	ROM_low
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module shift_merge
+# 
+# Top level modules:
+# 	shift_merge
+# vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/testbench.v}
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module Testbench
+# 
+# Top level modules:
+# 	Testbench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L arriagx_ver -L altgxb_ver -L arriagx_hssi_ver -L rtl_work -L work -voptargs="+acc" Testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L arriagx_ver -L altgxb_ver -L arriagx_hssi_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Testbench 
+# Loading work.Testbench
+# Loading work.ROM_high
+# Loading work.ROM_low
+# Loading work.N8XRIPTIDE
+# Loading work.IO_latch
+# Loading work.reg_file
+# Loading work.right_rotate
+# Loading work.mask_unit
+# Loading work.ALU
+# Loading work.shift_merge
+# Loading work.PC
+# Loading work.call_stack
+# Loading work.decode_unit
+# Loading work.hazard_unit
+# Loading work.IO_mod
+# Loading work.testmem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run 400 ps
+run
+run
+run
+run

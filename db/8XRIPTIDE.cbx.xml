@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="8XRIPTIDE">
+		<CBX_INST_ENTRY INSTANCE_NAME="|N8XRIPTIDE|IO_latch:IO_latch0|altsyncram:LBA_reg[7]__1" CBX_FILE_NAME="altsyncram_vii1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|N8XRIPTIDE|PC:PC0|altshift_taps:PC_I_field1_rtl_0" CBX_FILE_NAME="shift_taps_d0m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

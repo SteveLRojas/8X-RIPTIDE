@@ -1,0 +1,38 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/toplevel.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/decode_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/hazard_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/PC.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/internal_mem.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/right_rotate.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/mask_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ALU.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO_latch.v}
+
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/toplevel.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ALU.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/decode_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/hazard_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/internal_mem.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO_latch.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/mask_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/PC.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/right_rotate.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ROM.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v}
+vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/testbench.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L arriagx_ver -L altgxb_ver -L arriagx_hssi_ver -L rtl_work -L work -voptargs="+acc" Testbench
+
+add wave *
+view structure
+view signals
+run 400 ns

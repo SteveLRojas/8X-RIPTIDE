@@ -1,0 +1,253 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\Admin\My Documents\8X-RIPTIDE\simulation\modelsim
+vALU
+Ih?@ZQO[C8D;=>To7gJ]SQ1
+VRzDINUX<[K`9:hAWzHlUc1
+w1601753406
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ALU.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ALU.v
+L0 1
+Z1 OV;L;6.5e;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+Z3 !s92 -vlog01compat -work work {+incdir+C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE} -O0
+n@a@l@u
+!s100 3C:[IPnF]W0ljmR0al:;73
+!s85 0
+!s101 -O0
+vcall_stack
+ID[]9GUUULNHYVBJ7bVffK1
+VeGH_573cPzdU]U9e5mL<i0
+Z4 w1601180872
+Z5 8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/internal_mem.v
+Z6 FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/internal_mem.v
+L0 14
+R1
+r1
+31
+R2
+R3
+!s100 3?C<5[1ooCj=Snh^mlS0m0
+!s85 0
+!s101 -O0
+vdecode_unit
+IMGNd6[R?HX<lXBCAIEh@F0
+V:URJPZb1zHZfHJb8NXNno0
+w1601753528
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/decode_unit.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/decode_unit.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 bkh2z4@[_Po:LdX[Q2iOD2
+!s85 0
+!s101 -O0
+vhazard_unit
+Ib;i1QZ5P^3OnG96NdH_I92
+V_KTgk:i4o=FE60V5LA7dh2
+w1601757984
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/hazard_unit.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/hazard_unit.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 fPh?iXj:WQo5V:[lYb3VO2
+!s85 0
+!s101 -O0
+vIO_latch
+IPJjFOzfKRZm7BRja:h2dH3
+VYldnTcMM?48h1kUDz;d6Z1
+w1601177720
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO_latch.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO_latch.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@i@o_latch
+!s100 =Th`BioMVZVVl4GkYE8bm3
+!s85 0
+!s101 -O0
+vIO_mod
+IB6NRm<chXY`kK`Sd6fQ=k0
+VQ=8?`dLNeQbA9K]89MU?<3
+Z7 w1596450054
+Z8 8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO.v
+Z9 FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/IO.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@i@o_mod
+!s100 dn1Tg@=6TmB^o=XB3aa>I2
+!s85 0
+!s101 -O0
+vmask_unit
+IOL366j@Q97N@YPbS6S1fj2
+V^SGBoJJRLV=EkmWzL[ibP0
+w1601177402
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/mask_unit.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/mask_unit.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 Q=`P0Q7LFilXZL=83;j3f2
+!s85 0
+!s101 -O0
+vN8XRIPTIDE
+IQ84<Rb48fGeBXE]<K]Bkk3
+VRE@0F005mcmQeIAicR[@Y3
+w1601758163
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/toplevel.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/toplevel.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@n8@x@r@i@p@t@i@d@e
+!s100 ;`zH[7@cWSZ3fB9cZ=Cem1
+!s85 0
+!s101 -O0
+vPC
+IP:K;EI5fP]hBig`hUOdDS3
+V>NV;NAgVKZV2`UJc:bmUK3
+w1601759843
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/PC.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/PC.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@p@c
+!s100 ^27R^Kg2eaf1;[CAOPQ`j1
+!s85 0
+!s101 -O0
+vreg_file
+IIOJaBF3o0L[EXBJGDe6R[1
+VM2OPiV?Z=E5jAMGjJ4KON1
+R4
+R5
+R6
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 ^nCmR>e<jXTFU12nBn<dL3
+!s85 0
+!s101 -O0
+vright_rotate
+IlQ=z<k<EmmU_ogC9a]AK>1
+Vhh0lCW:3Vi17f^W6HhM;h3
+w1601177376
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/right_rotate.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/right_rotate.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 <K<DW3ZV=a7G_Vd?KAWbO3
+!s85 0
+!s101 -O0
+vROM_high
+IXL:bPo:_hCC=ZFUm@S_7:2
+VkF:QH:_8YDBEfGYoY1mQ13
+Z10 w1592457970
+Z11 8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ROM.v
+Z12 FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/ROM.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@r@o@m_high
+!s100 M369=4XMh6DOE8>:=^G<:3
+!s85 0
+!s101 -O0
+vROM_low
+I`lB30@4JN^LkD`;ej23iO3
+VT3UCLcaG=[f=4[4i?a6LN0
+R10
+R11
+R12
+L0 15
+R1
+r1
+31
+R2
+R3
+n@r@o@m_low
+!s100 KaK?H9XS7Z>SJ`LB<aZaV0
+!s85 0
+!s101 -O0
+vshift_merge
+IeP^5gJnDefId;TKe?YU:J2
+ViAc`52]z[nW6@6g_lQbJf0
+w1601170011
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 =GOYMhgaYmW20_AihCmC;3
+!s85 0
+!s101 -O0
+vTestbench
+!s100 `Oa[:BchBi5B:ZUK7Y]R12
+IPom6_]medo>Tkfh3b@LG[2
+VGdUiEZgaMiVEi@bgHJeE13
+w1601748515
+8C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/testbench.v
+FC:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/testbench.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+n@testbench
+vtestmem
+I5menoZiCM:eU[dl]@VOBZ3
+VmB1e>oXoE[3d2dFJ9en;l0
+R7
+R8
+R9
+L0 41
+R1
+r1
+31
+R2
+R3
+!s100 Iz[CWdCN;VUFDhPO5ZQ^Z3
+!s85 0
+!s101 -O0
