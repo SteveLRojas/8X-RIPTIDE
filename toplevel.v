@@ -125,10 +125,10 @@ begin
 		latch_wren2 <= 1'b0;
 		latch_wren3 <= 1'b0;
 		latch_wren4 <= 1'b0;
-		regf_w1 <= 3'h0;
-		regf_w2 <= 3'h0;
-		regf_w3 <= 3'h0;
-		regf_w4 <= 3'h0;
+		//regf_w1 <= 3'h0;
+		//regf_w2 <= 3'h0;
+		//regf_w3 <= 3'h0;
+		//regf_w4 <= 3'h0;
 		regf_wren1 <= 1'b0;
 		regf_wren2 <= 1'b0;
 		regf_wren3 <= 1'b0;
@@ -170,7 +170,7 @@ begin
 		CALL4 <= 1'b0;
 	end
 	else
-	begin
+	begin	//not reset
 		if(pipeline_flush)
 		begin
 		SC1 <= 1'b0;
@@ -201,10 +201,10 @@ begin
 		latch_wren2 <= 1'b0;
 		latch_wren3 <= 1'b0;
 		latch_wren4 <= 1'b0;
-		regf_w1 <= 3'h0;
-		regf_w2 <= 3'h0;
-		regf_w3 <= 3'h0;
-		regf_w4 <= 3'h0;
+		//regf_w1 <= 3'h0;
+		//regf_w2 <= 3'h0;
+		//regf_w3 <= 3'h0;
+		//regf_w4 <= 3'h0;
 		regf_wren1 <= 1'b0;
 		regf_wren2 <= 1'b0;
 		regf_wren3 <= 1'b0;
@@ -246,7 +246,7 @@ begin
 		CALL4 <= 1'b0;
 		end
 		else
-		begin
+		begin	//not flush
 			if(hazard)
 			begin
 				SC1 <= 1'b0;
@@ -256,7 +256,7 @@ begin
 				n_LB_r1 <= 1'b0;
 				n_RB_r1 <= 1'b1;
 				latch_wren1 <= 1'b0;
-				regf_w1 <= 3'h0;
+				//regf_w1 <= 3'h0;
 				regf_wren1 <= 1'b0;
 				rotate_S01 <= 3'h0;
 				rotate_R1 <= 3'h0;
@@ -273,7 +273,7 @@ begin
 				CALL1 <= 1'b0;
 			end
 			else
-			begin
+			begin	//not hazard
 				SC1 <= SC;
 				WC1 <= WC;
 				n_LB_w1 <= n_LB_w;
@@ -281,7 +281,7 @@ begin
 				n_LB_r1 <= n_LB_r;
 				n_RB_r1 <= n_RB_r;
 				latch_wren1 <= latch_wren;
-				regf_w1 <= regf_w;
+				//regf_w1 <= regf_w;
 				regf_wren1 <= regf_wren;
 				rotate_S01 <= rotate_S0;
 				rotate_R1 <= rotate_R;
@@ -296,7 +296,7 @@ begin
 				NZT1 <= NZT;
 				XEC1 <= XEC;
 				CALL1 <= CALL;
-			end
+			end	//not flush
 			SC2 <= SC1;
 			SC3 <= SC2;
 			SC4 <= SC3;
@@ -318,9 +318,9 @@ begin
 			latch_wren2 <= latch_wren1;
 			latch_wren3 <= latch_wren2;
 			latch_wren4 <= latch_wren3;
-			regf_w2 <= regf_w1;
-			regf_w3 <= regf_w2;
-			regf_w4 <= regf_w3;
+			//regf_w2 <= regf_w1;
+			//regf_w3 <= regf_w2;
+			//regf_w4 <= regf_w3;
 			regf_wren2 <= regf_wren1;
 			regf_wren3 <= regf_wren2;
 			regf_wren4 <= regf_wren3;
@@ -347,7 +347,7 @@ begin
 			CALL3 <= CALL2;
 			CALL4 <= CALL3;
 		end
-	end
+	end	//always
 	long_I1 <= long_I;
 	long_I2 <= long_I1;
 	long_I3 <= long_I2;
@@ -379,6 +379,10 @@ begin
 	latch_wren6 <= latch_wren5;
 	latch_address_w5 <= latch_address_w4;
 	latch_address_w6 <= latch_address_w5;
+	regf_w1 <= regf_w;
+	regf_w2 <= regf_w1;
+	regf_w3 <= regf_w2;
+	regf_w4 <= regf_w3;
 	regf_w5 <= regf_w4;
 	regf_wren5 <= regf_wren4;
 	merge_D05 <= merge_D04;
@@ -418,6 +422,7 @@ mask_unit mask0(.clk(clk), .mask_in(rotate_out), .L_select(mask_L2), .mask_out(m
 assign amux_out = alu_mux3 ? alu_I_field3 : b_data;
 ALU ALU0(
 		.clk(clk),
+		.flush(pipeline_flush),
 		.op(alu_op3),
 		.in_a(mask_out),
 		.in_b(amux_out),

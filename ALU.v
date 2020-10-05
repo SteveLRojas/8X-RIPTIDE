@@ -1,4 +1,4 @@
-module ALU(input wire clk, input wire[2:0] op, input wire[7:0] in_a, in_b, output wire[7:0] alu_out, output wire OVF_out, NZ_out);
+module ALU(input wire clk, flush, input wire[2:0] op, input wire[7:0] in_a, in_b, output wire[7:0] alu_out, output wire OVF_out, NZ_out);
 reg[7:0] alu_reg;
 reg OVF_reg;
 reg NZ_reg;
@@ -16,7 +16,7 @@ begin
 	3'b110: alu_reg <= in_a & in_b;
 	3'b111: alu_reg <= in_a ^ in_b;
 	endcase
-	if(op == 3'b001)
+	if(op == 3'b001 & (~flush))
 		OVF_reg <= add_result[8];
 	if(in_a != 8'h00)
 		NZ_reg <= 1'b1;

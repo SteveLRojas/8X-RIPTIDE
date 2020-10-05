@@ -1,5 +1,5 @@
 Flow report for 8XRIPTIDE
-Sat Oct 03 15:53:13 2020
+Mon Oct 05 13:23:10 2020
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Sat Oct 03 15:53:13 2020   ;
+; Flow Status                        ; Successful - Mon Oct 05 13:23:10 2020   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; 8XRIPTIDE                               ;
 ; Top-level Entity Name              ; N8XRIPTIDE                              ;
@@ -46,8 +46,8 @@ applicable agreement for further details.
 ; Device                             ; EP2C5T144C8                             ;
 ; Timing Models                      ; Final                                   ;
 ; Met timing requirements            ; Yes                                     ;
-; Total logic elements               ; 981 / 4,608 ( 21 % )                    ;
-;     Total combinational functions  ; 804 / 4,608 ( 17 % )                    ;
+; Total logic elements               ; 982 / 4,608 ( 21 % )                    ;
+;     Total combinational functions  ; 792 / 4,608 ( 17 % )                    ;
 ;     Dedicated logic registers      ; 701 / 4,608 ( 15 % )                    ;
 ; Total registers                    ; 701                                     ;
 ; Total pins                         ; 57 / 89 ( 64 % )                        ;
@@ -63,58 +63,58 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/03/2020 15:52:11 ;
+; Start date & time ; 10/05/2020 13:22:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; 8XRIPTIDE           ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                           ;
-+--------------------------------------+-------------------------------+--------------------------------+-------------+----------------------+
-; Assignment Name                      ; Value                         ; Default Value                  ; Entity Name ; Section Id           ;
-+--------------------------------------+-------------------------------+--------------------------------+-------------+----------------------+
-; COMPILER_SIGNATURE_ID                ; 8796747382803.160176193003544 ; --                             ; --          ; --                   ;
-; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL      ; Design Compiler               ; <None>                         ; --          ; --                   ;
-; EDA_DESIGN_INSTANCE_NAME             ; CPU                           ; --                             ; --          ; testbench            ;
-; EDA_INPUT_DATA_FORMAT                ; Verilog Hdl                   ; --                             ; --          ; eda_design_synthesis ;
-; EDA_INPUT_VCC_NAME                   ; Vdd                           ; --                             ; --          ; eda_design_synthesis ;
-; EDA_LMF_FILE                         ; altsyn.lmf                    ; --                             ; --          ; eda_design_synthesis ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                     ; --                             ; --          ; eda_simulation       ;
-; EDA_OUTPUT_DATA_FORMAT               ; Verilog                       ; --                             ; --          ; eda_simulation       ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)     ; <None>                         ; --          ; --                   ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE               ; --                             ; --          ; eda_simulation       ;
-; EDA_TEST_BENCH_FILE                  ; lrom.txt                      ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; hrom.txt                      ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; toplevel.v                    ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; ALU.v                         ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; decode_unit.v                 ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; hazard_unit.v                 ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; internal_mem.v                ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; IO.v                          ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; IO_latch.v                    ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; mask_unit.v                   ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; PC.v                          ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; right_rotate.v                ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; ROM.v                         ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; shift_merge.v                 ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_FILE                  ; testbench.v                   ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_MODULE_NAME           ; Testbench                     ; --                             ; --          ; testbench            ;
-; EDA_TEST_BENCH_NAME                  ; testbench                     ; --                             ; --          ; eda_simulation       ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 400 ps                        ; --                             ; --          ; testbench            ;
-; EDA_TIME_SCALE                       ; 1 ps                          ; --                             ; --          ; eda_simulation       ;
-; FITTER_EFFORT                        ; Standard Fit                  ; Auto Fit                       ; --          ; --                   ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                            ; --                             ; --          ; --                   ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                             ; --                             ; --          ; --                   ;
-; MUX_RESTRUCTURE                      ; Off                           ; Auto                           ; --          ; --                   ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                          ; --                             ; --          ; --                   ;
-; OPTIMIZE_HOLD_TIMING                 ; All Paths                     ; IO Paths and Minimum TPD Paths ; --          ; --                   ;
-; PARTITION_COLOR                      ; 16764057                      ; --                             ; N8XRIPTIDE  ; Top                  ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING         ; --                             ; N8XRIPTIDE  ; Top                  ;
-; PARTITION_NETLIST_TYPE               ; SOURCE                        ; --                             ; N8XRIPTIDE  ; Top                  ;
-; STRATIXII_OPTIMIZATION_TECHNIQUE     ; Speed                         ; Balanced                       ; --          ; --                   ;
-; TOP_LEVEL_ENTITY                     ; N8XRIPTIDE                    ; 8XRIPTIDE                      ; --          ; --                   ;
-+--------------------------------------+-------------------------------+--------------------------------+-------------+----------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                          ;
++--------------------------------------+------------------------------+--------------------------------+-------------+----------------------+
+; Assignment Name                      ; Value                        ; Default Value                  ; Entity Name ; Section Id           ;
++--------------------------------------+------------------------------+--------------------------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID                ; 113780617491.160192572803436 ; --                             ; --          ; --                   ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL      ; Design Compiler              ; <None>                         ; --          ; --                   ;
+; EDA_DESIGN_INSTANCE_NAME             ; CPU                          ; --                             ; --          ; testbench            ;
+; EDA_INPUT_DATA_FORMAT                ; Verilog Hdl                  ; --                             ; --          ; eda_design_synthesis ;
+; EDA_INPUT_VCC_NAME                   ; Vdd                          ; --                             ; --          ; eda_design_synthesis ;
+; EDA_LMF_FILE                         ; altsyn.lmf                   ; --                             ; --          ; eda_design_synthesis ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                    ; --                             ; --          ; eda_simulation       ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog                      ; --                             ; --          ; eda_simulation       ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)    ; <None>                         ; --          ; --                   ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE              ; --                             ; --          ; eda_simulation       ;
+; EDA_TEST_BENCH_FILE                  ; lrom.txt                     ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; hrom.txt                     ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; toplevel.v                   ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; ALU.v                        ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; decode_unit.v                ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; hazard_unit.v                ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; internal_mem.v               ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; IO.v                         ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; IO_latch.v                   ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; mask_unit.v                  ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; PC.v                         ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; right_rotate.v               ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; ROM.v                        ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; shift_merge.v                ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_FILE                  ; testbench.v                  ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Testbench                    ; --                             ; --          ; testbench            ;
+; EDA_TEST_BENCH_NAME                  ; testbench                    ; --                             ; --          ; eda_simulation       ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 400 ps                       ; --                             ; --          ; testbench            ;
+; EDA_TIME_SCALE                       ; 1 ps                         ; --                             ; --          ; eda_simulation       ;
+; FITTER_EFFORT                        ; Standard Fit                 ; Auto Fit                       ; --          ; --                   ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                           ; --                             ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                            ; --                             ; --          ; --                   ;
+; MUX_RESTRUCTURE                      ; Off                          ; Auto                           ; --          ; --                   ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                         ; --                             ; --          ; --                   ;
+; OPTIMIZE_HOLD_TIMING                 ; All Paths                    ; IO Paths and Minimum TPD Paths ; --          ; --                   ;
+; PARTITION_COLOR                      ; 16764057                     ; --                             ; N8XRIPTIDE  ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING        ; --                             ; N8XRIPTIDE  ; Top                  ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                       ; --                             ; N8XRIPTIDE  ; Top                  ;
+; STRATIXII_OPTIMIZATION_TECHNIQUE     ; Speed                        ; Balanced                       ; --          ; --                   ;
+; TOP_LEVEL_ENTITY                     ; N8XRIPTIDE                   ; 8XRIPTIDE                      ; --          ; --                   ;
++--------------------------------------+------------------------------+--------------------------------+-------------+----------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -122,12 +122,12 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:22     ; 1.0                     ; 171 MB              ; 00:00:20                           ;
+; Analysis & Synthesis    ; 00:00:20     ; 1.0                     ; 170 MB              ; 00:00:19                           ;
 ; Fitter                  ; 00:00:28     ; 1.0                     ; 170 MB              ; 00:00:27                           ;
 ; Assembler               ; 00:00:02     ; 1.0                     ; 148 MB              ; 00:00:02                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 121 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 121 MB              ; 00:00:01                           ;
 ; EDA Netlist Writer      ; 00:00:02     ; 1.0                     ; 123 MB              ; 00:00:01                           ;
-; Total                   ; 00:00:55     ; --                      ; --                  ; 00:00:51                           ;
+; Total                   ; 00:00:54     ; --                      ; --                  ; 00:00:50                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

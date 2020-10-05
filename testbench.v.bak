@@ -48,6 +48,7 @@ wire[7:0] RB_Din;
 wire[7:0] LB_Dout;
 wire[7:0] RB_Dout;
 wire[15:0] IO_address;
+wire[2:0] stack_addr;
 
 ROM_high HROM(.clk(clk), .address(A[12:0]), .data(data_high));
 ROM_low LROM(.clk(clk), .address(A[12:0]), .data(data_low));
@@ -111,6 +112,7 @@ assign latch_merge_out = CPU.latch_merge_out;
 assign latch_merge_in = CPU.latch_merge_in;
 assign merge_D05 = CPU.merge_D05;
 assign shift_L4 = CPU.shift_L4;
+assign stack_addr = CPU.PC0.cstack0.address;
 
 always begin: CLOCK_GENERATION
 #1 clk =  ~clk;

@@ -30,7 +30,7 @@ vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Docu
 vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/shift_merge.v}
 vlog -vlog01compat -work work +incdir+C:/Documents\ and\ Settings/Admin/My\ Documents/8X-RIPTIDE {C:/Documents and Settings/Admin/My Documents/8X-RIPTIDE/testbench.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L arriagx_ver -L altgxb_ver -L arriagx_hssi_ver -L rtl_work -L work -voptargs="+acc" Testbench
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" Testbench
 
 add wave *
 view structure

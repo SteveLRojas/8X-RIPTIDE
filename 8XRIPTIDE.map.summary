@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sat Oct 03 15:52:33 2020
+Analysis & Synthesis Status : Successful - Mon Oct 05 13:22:29 2020
 Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
 Revision Name : 8XRIPTIDE
 Top-level Entity Name : N8XRIPTIDE
 Family : Cyclone II
-Total logic elements : 804
-    Total combinational functions : 804
+Total logic elements : 792
+    Total combinational functions : 792
     Dedicated logic registers : 701
 Total registers : 701
 Total pins : 57

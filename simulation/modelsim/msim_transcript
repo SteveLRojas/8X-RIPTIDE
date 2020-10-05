@@ -158,8 +158,8 @@
 # Top level modules:
 # 	Testbench
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L arriagx_ver -L altgxb_ver -L arriagx_hssi_ver -L rtl_work -L work -voptargs="+acc" Testbench
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L arriagx_ver -L altgxb_ver -L arriagx_hssi_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Testbench 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" Testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Testbench 
 # Loading work.Testbench
 # Loading work.ROM_high
 # Loading work.ROM_low
@@ -183,7 +183,3 @@
 # view signals
 # .main_pane.objects.interior.cs.body
 # run 400 ps
-run
-run
-run
-run

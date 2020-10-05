@@ -22,45 +22,6 @@ altsyn.lmf
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-N8XRIPTIDE
-# storage
-db|8XRIPTIDE.(0).cnf
-db|8XRIPTIDE.(0).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-toplevel.v
-79b38c92fed7d55a6822fb33399fcb9
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-|
-}
-# lmf
-..|..|..|..|altera|81|quartus|lmf|altsyn.lmf
-32a512b4b4798678355b65114155d5b6
-# macro_sequence
-
-# end
-# entity
 IO_latch
 # storage
 db|8XRIPTIDE.(1).cnf
@@ -613,45 +574,6 @@ mask_unit:mask0
 
 # end
 # entity
-ALU
-# storage
-db|8XRIPTIDE.(7).cnf
-db|8XRIPTIDE.(7).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-ALU.v
-8063aaab806b54c38debfec8dcbae1fe
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-ALU:ALU0
-}
-# lmf
-..|..|..|..|altera|81|quartus|lmf|altsyn.lmf
-32a512b4b4798678355b65114155d5b6
-# macro_sequence
-
-# end
-# entity
 shift_merge
 # storage
 db|8XRIPTIDE.(8).cnf
@@ -1139,6 +1061,84 @@ clock
 clk_en
 -1
 2
+}
+# lmf
+..|..|..|..|altera|81|quartus|lmf|altsyn.lmf
+32a512b4b4798678355b65114155d5b6
+# macro_sequence
+
+# end
+# entity
+ALU
+# storage
+db|8XRIPTIDE.(7).cnf
+db|8XRIPTIDE.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ALU.v
+c8490112b0ec3c4da0ddf599d2a22a
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+ALU:ALU0
+}
+# lmf
+..|..|..|..|altera|81|quartus|lmf|altsyn.lmf
+32a512b4b4798678355b65114155d5b6
+# macro_sequence
+
+# end
+# entity
+N8XRIPTIDE
+# storage
+db|8XRIPTIDE.(0).cnf
+db|8XRIPTIDE.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+toplevel.v
+a342741c8c02db069d1fdc5cc94d657
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
 }
 # lmf
 ..|..|..|..|altera|81|quartus|lmf|altsyn.lmf

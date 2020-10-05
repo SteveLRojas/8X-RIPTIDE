@@ -7,4 +7,7 @@ Two new instructions (CALL and RET) have been added along with an 8 level call s
 An assembler supporting the two new instructions is available as a separate project, and backwards compatibility with the 8X300 is maintained.  
 Documentation of the instruction set, timing model, and assembler syntax will be available before May 2021.  
 
-When implemented on a Cyclone II FPGA this design can achieve speeds of up to 130 MIPS, a vast improvement over the 4 MIPS of the N8X300I.
+When implemented on a Cyclone II FPGA this design can achieve speeds of up to 130 MIPS, a vast improvement over the 4 MIPS of the N8X300I.  
+
+Change log:  
+  *Minor optimizations in top level and bug fix in ALU (OVF dissabled by pipeline flush).  
